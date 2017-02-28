@@ -9,3 +9,21 @@ while answer != ''
 end
 
 puts myarray.sort!
+puts '***************************************************'
+
+puts('Table of Contents'.center(40))
+
+chapters = [['Getting Started', ' 1'],
+            ['Numbers', ' 9'],
+            ['Letters', ' 13']]
+
+chapters.each_with_index do |chap, idx|
+  name, page = chap
+  chap_num = idx + 1
+  beginning = "Chapter #{chap_num}: #{name}"
+  ending = "page #{page}"
+
+  puts beginning.ljust(30) + ending.rjust(20)
+end
+
+puts '***************************************************'
