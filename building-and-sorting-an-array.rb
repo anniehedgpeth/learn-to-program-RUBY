@@ -27,3 +27,11 @@ chapters.each_with_index do |chap, idx|
 end
 
 puts '***************************************************'
+
+def sort(some_array) # This wraps recursive_sort.
+  recursive_sort some_array, []
+end
+
+def recursive_sort (unsorted_array, sorted_array)
+  
+end
