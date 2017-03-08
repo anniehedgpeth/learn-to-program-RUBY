@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Hash",
+      "type": "Ruby",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "program": "${workspaceRoot}/hash.rb"
+    }
+   ]
+}
